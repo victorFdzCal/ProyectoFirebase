@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/primary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilActivity">
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="252dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="chatAccess"
+        android:text="chat"
+        android:textColor="@color/primary"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorAccent"
+        android:onClick="logout"
+        android:text="cerrar sesion"
+        android:textColor="@color/primary"
+        app:cornerRadius="100dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnChat"
+        app:layout_constraintStart_toStartOf="@+id/btnChat"
+        app:layout_constraintTop_toBottomOf="@+id/btnChat" />
+
+    <TextView
+        android:id="@+id/txtVerificacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="CUENTA INACTIVA"
+        android:visibility="invisible"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="@+id/btnLogOut"
+        app:layout_constraintStart_toStartOf="@+id/btnLogOut"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogOut" />
+
+    <TextView
+        android:id="@+id/txtPulsaParaActivar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pulsa aquí para activar tu cuenta"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:onClick="activateAccount"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/txtVerificacion"
+        app:layout_constraintStart_toStartOf="@+id/txtVerificacion"
+        app:layout_constraintTop_toBottomOf="@+id/txtVerificacion" />
+</androidx.constraintlayout.widget.ConstraintLayout>

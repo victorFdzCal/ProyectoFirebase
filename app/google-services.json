@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683370147792",
+    "project_id": "prueba-firebase-f432a",
+    "storage_bucket": "prueba-firebase-f432a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683370147792:android:f2a2694cf1307d9ac553d5",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683370147792-i5s72cu075s2sjg2mafa4o97lllg456c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw3bB6RAsumrE3V739pMQ3ntxaUadyhf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683370147792-i5s72cu075s2sjg2mafa4o97lllg456c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

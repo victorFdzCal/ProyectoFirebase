@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/menuUsuarios">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home Usuarios" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galeria Usuarios" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow Usuarios" />
+    </group>
+    <item android:title="Registro">
+        <menu>
+            <item
+                android:id="@+id/logOutMenu"
+                android:title="Salir de la cuenta"/>
+            <item
+                android:id="@+id/inicioMenu"
+                android:title="Volver a principal"/>
+            <item
+                android:id="@+id/loginMenu"
+                android:title="Login"/>
+        </menu>
+    </item>
+</menu>
